@@ -15,8 +15,9 @@ std::ostream& operator<<(std::ostream& stream, const CXString& str)
 }
 
 int main(int argc, char **argv)
-{
-    if (argc == 1) {
+{   system(" cls ");
+    if (argc == 1) 
+    {
         std::cerr << "No source file\n";
         return EXIT_FAILURE;
     }
